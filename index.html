@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- googlefonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+    <style>
+      .attribution {
+        text-align: center;
+        color:  hwb(43 36% 5%);
+      }
+      .attribution a {
+        color: #f0f8ff;
+        text-decoration: none;
+      }
+    </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="profile">
+
+      <div class="profile__info">
+        <img src="images/image-jeremy.png" alt="Jeremy Robson" class="profile__image">
+        <div class="pro__title">
+          <p class="profile__report-for">Report for</p>
+          <h1 class="profile__name">Jeremy Robson</h1>
+        </div>
+
+      </div>
+      <nav class="report">
+        <ul class="report__periods">
+          <li class="report__period">
+            <a href="#" data-timeframe="daily">Daily</a>
+          </li>
+          <li class="report__period">
+            <a href="#" data-timeframe="weekly">Weekly</a>
+          </li>
+          <li class="report__period">
+            <a href="#" data-timeframe="monthly">Monthly</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="activities">
+      <section class="activity work">
+        <div class="activity__header work_header">
+          <img src="images/icon-work.svg" alt="Work" class="activity__icon">
+        </div>
+        <div class="header">
+          <img src="images/icon-ellipsis.svg" alt="">
+          <h2 class="activity__title">Work</h2>
+        </div>
+        <div class="activity__details">
+          <p class="activity__current">5hrs</p>
+          <p class="activity__previous">Previous - 7hrs</p>
+        </div>
+      </section>
+
+      <section class="activity play">
+        <div class="activity__header play_header">
+          <img src="images/icon-play.svg" alt="Play" class="activity__icon">
+        </div>
+        <div class="header">
+          <img src="images/icon-ellipsis.svg" alt="">
+          <h2 class="activity__title">Play</h2>
+        </div>
+        <div class="activity__details">
+          <p class="activity__current">1hr</p>
+          <p class="activity__previous">Previous - 2hrs</p>
+        </div>
+      </section>
+
+      <section class="activity study">
+        <div class="activity__header study_header">
+          <img src="images/icon-study.svg" alt="Study" class="activity__icon">
+        </div>
+        <div class="header">
+          <img src="images/icon-ellipsis.svg" alt="">
+          <h2 class="activity__title">Study</h2>
+        </div>
+        <div class="activity__details">
+          <p class="activity__current">0hrs</p>
+          <p class="activity__previous">Previous - 1hr</p>
+        </div>
+      </section>
+
+      <section class="activity exercise">
+        <div class="activity__header exr_header">
+          <img src="images/icon-exercise.svg" alt="Exercise" class="activity__icon">
+        </div>
+        <div class="header">
+          <img src="images/icon-ellipsis.svg" alt="">
+          <h2 class="activity__title">Exercise</h2>
+        </div>
+        <div class="activity__details">
+          <p class="activity__current">1hr</p>
+          <p class="activity__previous">Previous - 1hr</p>
+        </div>
+      </section>
+
+      <section class="activity social">
+        <div class="activity__header social_header">
+          <img src="images/icon-social.svg" alt="Social" class="activity__icon">
+        </div>
+        <div class="header">
+          <img src="images/icon-ellipsis.svg" alt="">
+          <h2 class="activity__title">Social</h2>
+        </div>
+        <div class="activity__details">
+          <p class="activity__current">1hr</p>
+          <p class="activity__previous">Previous - 3hrs</p>
+        </div>
+      </section>
+
+      <section class="activity self-care">
+        <div class="activity__header self-care_header">
+          <img src="images/icon-self-care.svg" alt="Self Care" class="activity__icon">
+        </div>
+        <div class="header">
+          <img src="images/icon-ellipsis.svg" alt="">
+          <h2 class="activity__title">Self Care</h2>
+        </div>
+        <div class="activity__details">
+          <p class="activity__current">0hrs</p>
+          <p class="activity__previous">Previous - 1hr</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="attribution">
+    Challenge by 
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">
+      Frontend Mentor
+    </a>.
+  </br>
+    Coded by 
+    <a href="https://github.com/jantoma" target="_blank" rel="noopener noreferrer">
+      Jan Toma
+    </a>.
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
